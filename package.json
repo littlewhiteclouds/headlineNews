@@ -1,8 +1,8 @@
 {
-  "name": "news",
+  "name": "jieMianNews",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "caiyang <735592436@qq.com>",
+  "author": "caiyang <littlewhiteclouds@163.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -18,17 +18,18 @@
     "vue-resource": "^1.3.4",
     "vue-router": "^2.6.0",
     "vue-scroller": "^2.2.2",
-    "vux": "^2.5.8"
+    "vux": "^2.5.8",
+      "vuex": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
-    "babel-core": "^6.22.1",
-    "babel-eslint": "^7.1.1",
-    "babel-loader": "^7.1.1",
-    "babel-plugin-transform-runtime": "^6.22.0",
-    "babel-preset-env": "^1.3.2",
-    "babel-preset-stage-2": "^6.22.0",
-    "babel-register": "^6.22.0",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-register": "^6.0.0",
+    "babel-runtime": "^6.23.0",
     "chalk": "^2.0.1",
     "cheerio": "^1.0.0-rc.2",
     "connect-history-api-fallback": "^1.3.0",

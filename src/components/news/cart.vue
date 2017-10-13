@@ -1,13 +1,13 @@
 <template>
-    <div>
-        汽车
-    </div>
+<div id="cart">
+	汽车
+</div>
 </template>
 
 <script>
-    export default {};
+export default {};
 </script>
 
 <style lang="less">
-
+#cart {}
 </style>

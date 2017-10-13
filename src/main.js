@@ -6,8 +6,8 @@ import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
 import VueScroller from 'vue-scroller';
 import VueLazyLoad from 'vue-lazyload';
+import store from './store/'
 
-// import './lib/css/animate.css';
 
 import { ToastPlugin } from 'vux';
 Vue.use(ToastPlugin);
@@ -21,6 +21,7 @@ Vue.use(VueLazyLoad);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+    store,
   template: '<App/>',
   components: { App }
 });
