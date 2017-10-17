@@ -1,22 +1,20 @@
 
-> A Vue.js project
+> 新闻头条
 
-## Build Setup
+新闻头条是一个新闻资讯平台，基于vue开发的H5版新闻客户端。
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+## 运行
 ```
+git clone https://github.com/littlewhiteclouds/headlineNews.git
+cd mono
+npm install
+npm run dev
+```
+在浏览器中自动打开 http://localhost:8888
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 功能模块
 
-
+看图新闻
+滚动头条
+新闻列表
+视频新闻
